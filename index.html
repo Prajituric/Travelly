@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="You want to book a destination for your vacantion? Here you will find everything you need from the best destinations to the best prices"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="icons/head.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travelly | Travelling Agency</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Travelly</h1>
+        <ul class="nav-list">
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>Travel Beyond Limits</h2>
+      <h3>Start your best experiences with us</h3>
+      <button><a href="#contact"> Book Now</a></button>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img
+        id="icon-top"
+        src="https://img.icons8.com/ios-filled/50/000000/double-up.png"
+      />
+      <img id="icon-mobile" src="images/mobile-arrow.png" alt="" />
+    </button>
+
+    <section id="locations">
+      <header class="locations-header">
+        <h2>The Best Services You'll Ever Find</h2>
+        <h3>
+          We cover everything from pinking the perfect hotel, <br />
+          tickets, flight and travelling destination.
+        </h3>
+      </header>
+    </section>
+    <section id="benefits">
+      <header class="benefits-header">
+        <h2>The Perfect Travelling Experience</h2>
+        <h3>
+          We cover everything is needed <br />
+          for the pleasure of our clients
+        </h3>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <img src="icons/travel.svg" alt="travel-icon" />
+          </div>
+          <h4>Travel</h4>
+          <p>Travel in over 250 countries with no effort.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icons/bed.svg" alt="bed-icon" />
+          </div>
+          <h4>Hotel</h4>
+          <p>Hotels located near best and popular areas.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="icons/plane.svg" alt="plane-icon" />
+          </div>
+          <h4>Flight</h4>
+          <p>Flight included in every trip purchased.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="form-wrapper">
+        <header class="form-head">
+          <h2>Contact Us</h2>
+        </header>
+        <form action="https://formspree.io/f/mgedvlgd" method="POST">
+          <div class="name-form">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" required />
+          </div>
+          <div class="email-form">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="_replyto" required />
+          </div>
+          <button type="submit" value="Send">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer container underline">
+        <div class="btn fb-btn">
+          <a href="https://www.facebook.com/profile.php?id=100007786965978">
+            <i class="fa fa-facebook" aria-hidden="true" id="fb"></i>
+          </a>
+        </div>
+        <div class="btn ig-btn">
+          <a href="https://www.instagram.com/d.andrei.21/">
+            <i class="fa fa-instagram" aria-hidden="true" id="ig"></i
+          ></a>
+        </div>
+        <div class="btn tw-btn">
+          <a href="https://twitter.com/BugheanuDanut"
+            ><i class="fa fa-twitter" aria-hidden="true" id="tw"></i
+          ></a>
+        </div>
+      </div>
+      <div class="underline footer">
+        <h5>Travelly &copy; | All Rights Reserved 2022</h5>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
